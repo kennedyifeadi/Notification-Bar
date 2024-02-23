@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    background-color: hsl(0, 0%, 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main{
+    padding: 20px;
+    height: 90%;
+    width: 40%;
+    background-color: hsl(0, 0%, 100%);
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.086);
+}
+main section:nth-child(1){
+    display: flex;
+    justify-content: space-between;
+    height: max-content;
+
+}
+main section:nth-child(1) div{
+    color: hsl(224, 21%, 14%);
+    font-weight: bold;
+    width: 28%;
+    display: flex;
+    justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
+}
+main section:nth-child(1) div span{
+    border-radius: 5px;
+    background-color: rgb(5, 5, 133);
+    color: white;
+    width: 25px;
+    text-align: center;
+}
+main section:nth-child(1) small{
+    color:  hsl(219, 12%, 42%);
+    cursor: pointer;
+}
+main section:nth-child(1) small:hover{
+    color: blue;
+}
+main section:nth-child(2){
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid; */
+    row-gap: 10px;
+}
+main section:nth-child(2) div:nth-child(1){
+    display: flex;
+    background-color: hsl(210, 60%, 98%);
+    height: 60px;
+    border-radius: 5px;
+    align-items: center;
+    padding-left: 10px;
+}
+img{
+    width: 40px;
+    height: 40px;
+}
+main section div div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+div p{
+    cursor: pointer;
+    padding-left: 10px;
+    color:  hsl(224, 21%, 14%);
+    font-size: 14px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+div p span:nth-child(1){
+    cursor: default;
+    color:hsl(219, 14%, 63%) ;
+    font-size: 12px;
+}
+div p span:nth-child(2){
+    color: hsl(219, 12%, 42%);
+    font-size: 13px;
+} 
+div p span:nth-child(2):hover{
+    color: hsl(219, 17%, 58%);
+}
+#time{
+    padding-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: hsl(219, 12%, 42%);
+    align-self: flex-start;
+}
+main section:nth-child(2) div:nth-child(2){
+    display: flex;
+    background-color: hsl(210, 60%, 98%);
+    height: 60px;
+    border-radius: 5px;
+    align-items: center;
+    padding-left: 10px;
+}
+main section:nth-child(2) div:nth-child(3){
+    display: flex;
+    background-color: hsl(210, 60%, 98%);
+    height: 60px;
+    border-radius: 5px;
+    align-items: center;
+    padding-left: 10px;
+}
+#gc{
+    color:  rgba(0, 0, 255, 0.435);
+    font-weight: bold;
+    font-size: 15px;
+}
+/* dm design */
+#dm{
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    
+}
+#dm div{
+    background-color: #fff;
+    width: 92%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
